@@ -56,7 +56,10 @@ const App = () => {
         <Router>
           <MainContainer container>
             <NavBar container justify='space-between' alignItems='center'>
-              <Link to='/' style={{ textDecoration: 'none' }}>
+              <Link
+                to={process.env.PUBLIC_URL + '/'}
+                style={{ textDecoration: 'none' }}
+              >
                 <Text style={{ fontWeight: '800' }}>Where in the world?</Text>
               </Link>
               <Button
@@ -74,10 +77,10 @@ const App = () => {
             </NavBar>
             <Grid container>
               <Switch>
-                <Route exact path='/'>
+                <Route exact path={process.env.PUBLIC_URL + '/'}>
                   <Homepage />
                 </Route>
-                <Route exact path='/country'>
+                <Route exact path={process.env.PUBLIC_URL + '/country'}>
                   <Countrypage />
                 </Route>
               </Switch>

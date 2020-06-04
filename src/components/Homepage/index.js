@@ -93,7 +93,6 @@ const Homepage = () => {
               value={filter}
               onChange={(e) => setFilter(e.target.value)}
               className={classes.filterSelect}
-              style={{ padding: '10px' }}
             >
               <MenuItem value={filterValues.ALL}>Filter by Region</MenuItem>
               <MenuItem value={filterValues.AFRICA}>Africa</MenuItem>

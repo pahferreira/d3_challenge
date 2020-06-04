@@ -19,7 +19,10 @@ const CountryCard = ({ country, selectCountry }) => {
       xl={3}
       onClick={() => selectCountry(country)}
     >
-      <Link to='/country' style={{ width: '100%', textDecoration: 'none' }}>
+      <Link
+        to={process.env.PUBLIC_URL + '/country'}
+        style={{ width: '100%', textDecoration: 'none' }}
+      >
         <CardMedia
           className={classes.media}
           image={country.flag}

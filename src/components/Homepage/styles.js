@@ -36,6 +36,7 @@ const useStyles = makeStyles((theme) => {
       boxShadow: `5px 5px 5px 0px ${theme.palette.boxShadow}`,
       borderColor: theme.palette.background.second,
       paddingBottom: '17px',
+      height: '50px',
     },
     filterLabel: {
       color: theme.palette.primary.main,
