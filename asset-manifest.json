@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/d3_challenge/static/css/main.5f361e03.chunk.css",
+    "main.js": "/d3_challenge/static/js/main.962998ad.chunk.js",
+    "main.js.map": "/d3_challenge/static/js/main.962998ad.chunk.js.map",
+    "runtime-main.js": "/d3_challenge/static/js/runtime-main.38358517.js",
+    "runtime-main.js.map": "/d3_challenge/static/js/runtime-main.38358517.js.map",
+    "static/js/2.a39fe0f4.chunk.js": "/d3_challenge/static/js/2.a39fe0f4.chunk.js",
+    "static/js/2.a39fe0f4.chunk.js.map": "/d3_challenge/static/js/2.a39fe0f4.chunk.js.map",
+    "index.html": "/d3_challenge/index.html",
+    "precache-manifest.7e94ba1637e56fc55148f8d13b1b587b.js": "/d3_challenge/precache-manifest.7e94ba1637e56fc55148f8d13b1b587b.js",
+    "service-worker.js": "/d3_challenge/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/d3_challenge/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.a39fe0f4.chunk.js.LICENSE.txt": "/d3_challenge/static/js/2.a39fe0f4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.38358517.js",
+    "static/js/2.a39fe0f4.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.962998ad.chunk.js"
+  ]
+}
